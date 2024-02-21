@@ -39,8 +39,6 @@ class filtres:
             res.append('Практические занятия')
         return res
 
-
-
     def __str__(self):
         return f'Показывать:\n' \
                f'1. Лекции: {self.meaning_to_str(self.is_lec)}\n' \

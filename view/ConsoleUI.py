@@ -16,10 +16,6 @@ class consoleUI:
     def hello():
         print('Парсер сайта СамГТУ запускается...\nЗдравствуйте! Парсер запущен\n')
 
-    @staticmethod
-    def print_answer(text):
-        print(text)
-
     def print_menu(self):
         self.menu.print_menu()
 
@@ -43,7 +39,7 @@ class consoleUI:
                 print('\nВы успешно вошли!')
                 work1 = False
             else:
-                print('Вы ввели неверные данные нажмите 0 для выхода из приложения')
+                print('Вы ввели неверные данные!')
 
     def print_calendar(self):
         flag1 = True

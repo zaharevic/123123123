@@ -1,6 +1,3 @@
-from abc import abstractmethod
-
-
 class command:
     description = None
     consoleUI = None

@@ -69,6 +69,7 @@ class core:
         flag = True
         self.days_tmp = days()
         i = 1
+
         while flag:
             tmp_data = json1.json()
             for dat in tmp_data:
